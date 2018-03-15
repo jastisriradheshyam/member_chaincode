@@ -1,0 +1,9 @@
+docker exec -it chaincode bash
+root@81f6f2cf9ffc:/opt/gopath/src/chaincode# cd transfer/
+root@81f6f2cf9ffc:/opt/gopath/src/chaincode/transfer# CORE_PEER_ADDRESS=peer:7051 CORE_CHAINCODE_ID_NAME=mycc:0 ./transfer
+2018-03-15 11:31:38.961 UTC [shim] SetupChaincodeLogging -> INFO 001 Chaincode log level not provided; defaulting to: INFO
+2018-03-15 11:31:38.961 UTC [shim] SetupChaincodeLogging -> INFO 002 Chaincode (build level: ) starting up ...
+invoke is running addMember
+- start init marble
+This is the adderess of invoker : a379a6f6eeafb9a55e378c118034e2751e682fab9f2d30ab13d2125586ce1947 |------------------- [97 51 55 57 97 54 102 54 101 101 97 102 98 57 97 53 53 101 51 55 56 99 49 49 56 48 51 52 101 50 55 53 49 101 54 56 50 102 97 98 57 102 50 100 51 48 97 98 49 51 100 50 49 50 53 53 56 54 99 101 49 57 52 55] --------sd-s----
+invoke is running readMember
